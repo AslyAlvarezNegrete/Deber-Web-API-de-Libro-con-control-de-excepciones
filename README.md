@@ -23,7 +23,7 @@ Se realizaron cambios en el controlador LibroController para manejar correctamen
 
 4. Servicio de Libro
 
-Se implementó una lógica de negocio en la clase LibroServiceImpl para manejar la obtención y creación de libros. La excepción LibroException se lanza si no se encuentra un libro con el ID especificado.
+Se implementó un proceso en la clase LibroServiceImpl para gestionar la obtención y creación de libros. Si no se encuentra un libro con el ID especificado, se lanza la excepción LibroException.
 
 ![Servicio de Libro](https://github.com/AslyAlvarezNegrete/Deber-Web-API-de-Libro-con-control-de-excepciones/assets/170276678/a0b2d649-c66e-42c5-af3c-2854815ff91d)
 
